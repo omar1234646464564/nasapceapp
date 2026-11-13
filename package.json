@@ -1,0 +1,32 @@
+{
+  "name": "lunar-horizon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive lunar south pole landing site and illumination planner",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "data:dem": "node scripts/build-dem.mjs",
+    "data:horizons": "node scripts/build-horizons.mjs",
+    "check:responsive": "node scripts/check-responsive.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.72.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "pngjs": "^7.0.0",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

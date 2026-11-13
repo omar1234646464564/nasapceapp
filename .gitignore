@@ -1,0 +1,11 @@
+.vercel
+.env*
+node_modules/
+.next/
+out/
+tsconfig.tsbuildinfo
+*.log
+.DS_Store
+
+# Raw PDS DEM inputs (~140 MB). Not in the repo; see README "Data pipeline".
+/data/
